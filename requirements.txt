@@ -1,9 +1,30 @@
+# 추가됨
+plotly.express
+
+# 핵심 프레임워크
 streamlit
-gspread
+pandas
+numpy
+
+# 시각화 및 데이터 분석
+plotly
+scikit-learn
+scipy
+matplotlib
+
+# AI 및 언어 모델 (LangChain 관련)
+langchain
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-chroma
+langchain-huggingface
+google-genai
+
+# 유틸리티
 python-dotenv
-google-auth
-google-auth-oauthlib
-google-auth-httplib2
-# 만약 셀레니움 크롤링 코드도 포함된다면 아래 추가
-selenium
-webdriver-manager
+requests
+pillow
+PyMuPDF
+sentence-transformers
+pydantic

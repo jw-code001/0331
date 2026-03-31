@@ -46,3 +46,5 @@ python -m modules.sync_all --> ./modules/sync_all.py는 에러남 !!
 
 
 vector_db.py 에서 구글 유료화에 의한 에러 터질수있음... 확인요망
+
+python modules/vector_db.py
