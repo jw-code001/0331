@@ -1,0 +1,9 @@
+streamlit
+gspread
+python-dotenv
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+# 만약 셀레니움 크롤링 코드도 포함된다면 아래 추가
+selenium
+webdriver-manager

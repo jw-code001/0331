@@ -1,0 +1,48 @@
+에러 429 충전된 돈이 없습니다.
+
+제목 : 폼으로 데이터수집후 연동하여 랭체인챗봇 배포까지
+
+마지막 전날 포트폴리오 제출할것
+깃허브 주소
+
+
+
+"gemini-2.0-flash" <--- 1.5 안됨
+
+남의 걸 가져오면 .gitignore로 뺀걸 내걸로 채우는 것부터 시작
+
+pip install -r requirements.txt 명령주기
+
+파이썬 requirements.txt에 지금 나의 개발모듈 넣는 명령
+pip freeze > requirements.txt
+---> 버전은 싹 다 지울것 (충돌방지). path있으면 없앨것
+
+다른 환경에서 설치할 수 있게 필수모듈만 나겨. 특히 스트림릿에서 문제가 일어나면 안돼
+---> 이거 카피해서 requirements.txt 제작
+
+google ai studio
+---> api key 찾기
+
+.env는 로컬용
+secret.toml 은 스트림릿용
+
+chroma_db
+구글시트를 랭체인이 썰어놓은 db --> 향후 조립용
+
+벡터db 얼마나 잘게 잘 썰어놨느냐가 품질 !!
+
+
+
+
+
+module
+__init__.py : 하나의 팩키지(기능을 가진 바깥 껍데기)로 인식. 없으면 단순 폴더로 인식
+
+python -m modules.sync_all --> ./modules/sync_all.py는 에러남 !!
+모듈이 클래스의 상위개념이며 폴더느낌임
+
+
+메모등에 실수했다고 그 파일만 날리거나 수정안됨... 기존의 커밋한 것들이 남아있음
+
+
+vector_db.py 에서 구글 유료화에 의한 에러 터질수있음... 확인요망
