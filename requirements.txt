@@ -1,18 +1,20 @@
-# 추가됨
-plotly.express
-
-# 핵심 프레임워크
+# 핵심 웹 프레임워크
 streamlit
+
+# 데이터 분석 및 수치 계산
 pandas
 numpy
-
-# 시각화 및 데이터 분석
-plotly
-scikit-learn
 scipy
-matplotlib
 
-# AI 및 언어 모델 (LangChain 관련)
+# 시각화 (에러 해결을 위해 필수 포함)
+plotly
+plotly-express
+matplotlib
+altair
+pydeck
+
+# 머신러닝 및 AI (LangChain 포함)
+scikit-learn
 langchain
 langchain-community
 langchain-core
@@ -20,11 +22,16 @@ langchain-google-genai
 langchain-chroma
 langchain-huggingface
 google-genai
+sentence-transformers
+torch
+transformers
 
-# 유틸리티
+# 유틸리티 및 기타
 python-dotenv
 requests
 pillow
 PyMuPDF
-sentence-transformers
 pydantic
+pydantic-settings
+SQLAlchemy
+gspread
